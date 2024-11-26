@@ -77,7 +77,7 @@ const Technologies = () => {
               initial="initial"
               transition={{ duration: 0.3 }}
             >
-              <IconComponent className={`text-7xl ${tech.color}`} />
+              <IconComponent className={`text-7xl ${tech.color} sm:text-5xl md:text-6xl`} />
               {activeIcon === tech.id && (
                 <motion.p
                   initial={{ opacity: 0, y: 10 }}
@@ -97,4 +97,5 @@ const Technologies = () => {
 };
 
 export default Technologies;
+
 
