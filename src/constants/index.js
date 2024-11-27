@@ -56,7 +56,7 @@ export const EXPERIENCES = [
         description:
           "A personal portfolio website showcasing projects, skills, and contact information.",
         technologies: ["HTML", "CSS", "React", "Framer","TailwindCSS","Next.js"],
-        liveDemo: "https://Portfolio.vercel.app/", 
+        liveDemo: "https://portfolio-topaz-eta-17.vercel.app/", 
         github: "https://github.com/Tanisha2174/Portfolio",  
       },
   ];
